@@ -1,5 +1,7 @@
 # Qt build files
 build-*
+debug/
+release/
 *.pro.user
 *.pro.user.*
 *.qbs.user

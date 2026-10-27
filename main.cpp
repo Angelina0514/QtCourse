@@ -1,11 +1,16 @@
-#include "qwmainwind.h"
+#include "mainwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    QWMainWind w;
-    w.show();
+    QApplication app(argc, argv);
 
-    return a.exec();
+    // 设置应用程序信息
+    app.setApplicationName("QtCalculator");
+    app.setApplicationVersion("1.0.0");
+
+    MainWindow window;
+    window.show();
+
+    return app.exec();
 }

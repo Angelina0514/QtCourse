@@ -1,0 +1,11 @@
+release/main.o
+release/mainwindow.o
+release/codeeditor.o
+release/finddialog.o
+release/replacedialog.o
+release/aboutdialog.o
+release/moc_mainwindow.o
+release/moc_codeeditor.o
+release/moc_finddialog.o
+release/moc_replacedialog.o
+release/moc_aboutdialog.o
